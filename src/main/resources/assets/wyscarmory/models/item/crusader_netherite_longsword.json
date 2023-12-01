@@ -1,0 +1,6 @@
+{
+  "parent":"wyscarmory:item/weapon_model_longsword",
+  "textures": {
+    "layer0": "wyscarmory:item/crusader_netherite_longsword"
+  }
+}
