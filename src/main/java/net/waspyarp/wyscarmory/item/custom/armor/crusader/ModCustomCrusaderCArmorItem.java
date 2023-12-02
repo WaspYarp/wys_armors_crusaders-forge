@@ -1,4 +1,4 @@
-package net.waspyarp.wyscarmory.item.custom.crusader;
+package net.waspyarp.wyscarmory.item.custom.armor.crusader;
 
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;
@@ -10,7 +10,7 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.waspyarp.wyscarmory.client.armor.crusader.CrusaderCArmorRender;
-import net.waspyarp.wyscarmory.item.custom.ModCustomArmorItem;
+import net.waspyarp.wyscarmory.item.custom.armor.ModCustomArmorItem;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

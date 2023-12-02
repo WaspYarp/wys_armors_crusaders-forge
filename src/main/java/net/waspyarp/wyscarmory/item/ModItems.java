@@ -5,13 +5,12 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
 import net.waspyarp.wyscarmory.WYsCustomArmory;
 import net.waspyarp.wyscarmory.item.custom.ModCustomTemplateItem;
-import net.waspyarp.wyscarmory.item.custom.crusader.*;
-import net.waspyarp.wyscarmory.item.custom.spartan.SpartanCArmorItem;
-import net.waspyarp.wyscarmory.item.custom.spartan.SpartanIArmorItem;
-
-import java.awt.print.Paper;
+import net.waspyarp.wyscarmory.item.custom.armor.crusader.*;
+import net.waspyarp.wyscarmory.item.custom.armor.spartan.*;
+import net.waspyarp.wyscarmory.item.custom.weapon.*;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,8 +18,11 @@ public class ModItems {
 
 //General Items
     public static final RegistryObject<Item> LOST_CROWN = ITEMS.register("lost_crown",
-            () -> new Item(new Item.Properties().durability(4).setNoRepair()));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KING_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("king_upgrade_smithing_template",
+            () -> new Item(new Item.Properties()));
+    //just for keep the suspence for future updates
+    public static final RegistryObject<Item> UNKNOWN_TEMPLATE = ITEMS.register("unknown_template",
             () -> new Item(new Item.Properties()));
 
 //Crusader Items
@@ -70,37 +72,35 @@ public class ModItems {
             () -> new ModCustomCrusaderNArmorItem(ModArmorMaterials.ARMOR_NETHERITE_CRUSADER, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
     //Spartan Items
-    public static final RegistryObject<Item> SPARTAN_TEMPLATE = ITEMS.register("unknown_template",
+    public static final RegistryObject<Item> SPARTAN_TEMPLATE = ITEMS.register("spartan_template",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> CHAIN_SPARTAN_HELMET = ITEMS.register("c_spartan_helmet",
-            () -> new SpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModCustomSpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> CHAIN_SPARTAN_CHESTPLATE = ITEMS.register("c_spartan_chestplate",
-            () -> new SpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModCustomSpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> CHAIN_SPARTAN_LEGGINGS = ITEMS.register("c_spartan_leggings",
-            () -> new SpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModCustomSpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> CHAIN_SPARTAN_BOOTS = ITEMS.register("c_spartan_boots",
-            () -> new SpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ModCustomSpartanCArmorItem(ModArmorMaterials.SPARTAN_CHAIN_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> IRON_SPARTAN_HELMET = ITEMS.register("i_spartan_helmet",
-            () -> new SpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModCustomSpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> IRON_SPARTAN_CHESTPLATE = ITEMS.register("i_spartan_chestplate",
-            () -> new SpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModCustomSpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> IRON_SPARTAN_LEGGINGS = ITEMS.register("i_spartan_leggings",
-            () -> new SpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModCustomSpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> IRON_SPARTAN_BOOTS = ITEMS.register("i_spartan_boots",
-            () -> new SpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
-
+            () -> new ModCustomSpartanIArmorItem(ModArmorMaterials.SPARTAN_IRON_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> DIAMOND_SPARTAN_HELMET = ITEMS.register("d_spartan_helmet",
-            () -> new ModCustomCrusaderDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ModCustomSpartanDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_SPARTAN_CHESTPLATE = ITEMS.register("d_spartan_chestplate",
-            () -> new ModCustomCrusaderDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ModCustomSpartanDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_SPARTAN_LEGGINGS = ITEMS.register("d_spartan_leggings",
-            () -> new ModCustomCrusaderDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ModCustomSpartanDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> DIAMOND_SPARTAN_BOOTS = ITEMS.register("d_spartan_boots",
-            () -> new ModCustomCrusaderDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
-
+            () -> new ModCustomSpartanDArmorItem(ModArmorMaterials.SPARTAN_DIAMOND_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
 

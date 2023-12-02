@@ -2,7 +2,7 @@ package net.waspyarp.wyscarmory.client.armor.crusader;
 
 import net.minecraft.resources.ResourceLocation;
 import net.waspyarp.wyscarmory.WYsCustomArmory;
-import net.waspyarp.wyscarmory.item.custom.crusader.ModCustomCrusaderCArmorItem;
+import net.waspyarp.wyscarmory.item.custom.armor.crusader.ModCustomCrusaderCArmorItem;
 import software.bernie.geckolib.model.GeoModel;
 
 public class CrusaderCArmorModel extends GeoModel<ModCustomCrusaderCArmorItem> {

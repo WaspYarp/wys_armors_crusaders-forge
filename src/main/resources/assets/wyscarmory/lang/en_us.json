@@ -2,6 +2,7 @@
 "//GENERAL": "items",
   "item.wyscarmory.lost_crown": "Lost Crown",
   "item.wyscarmory.king_upgrade_smithing_template": "Smithing Template",
+  "item.wyscarmory.unknown_template": "Unknown Template",
 
 "//CRUSADER": "items",
   "item.wyscarmory.crusader_template": "Crusader Template",
@@ -30,7 +31,8 @@
 
 
 "//SPARTAN": "items",
-  "item.wyscarmory.unknown_template": "Unknown Template",
+  "item.wyscarmory.spartan_template": "Spartan Template",
+
 
 
 

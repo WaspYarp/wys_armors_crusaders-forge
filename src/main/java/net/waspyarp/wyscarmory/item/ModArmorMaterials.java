@@ -54,7 +54,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
         p_266655_.put(ArmorItem.Type.HELMET, 2);
-    }), 14, SoundEvents.ARMOR_EQUIP_CHAIN, 0.5F, 0.0F, () -> {
+    }), 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.5F, 0.0F, () -> {
         return Ingredient.of(Items.CHAIN);
     }),
     SPARTAN_IRON_ARMOR("iron_spartan", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
@@ -62,7 +62,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
         p_266655_.put(ArmorItem.Type.HELMET, 2);
-    }), 11, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> {
+    }), 12, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> {
         return Ingredient.of(Items.IRON_INGOT);
     }),
     SPARTAN_DIAMOND_ARMOR("diamond_spartan", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {

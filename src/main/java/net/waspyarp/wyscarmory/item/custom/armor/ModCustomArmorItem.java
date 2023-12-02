@@ -1,4 +1,4 @@
-package net.waspyarp.wyscarmory.item.custom;
+package net.waspyarp.wyscarmory.item.custom.armor;
 
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;

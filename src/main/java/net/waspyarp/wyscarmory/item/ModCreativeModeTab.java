@@ -22,7 +22,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.LOST_CROWN.get());
                         pOutput.accept(ModItems.KING_UPGRADE_SMITHING_TEMPLATE.get());
                         pOutput.accept(ModItems.CRUSADER_TEMPLATE.get());
-                        pOutput.accept(ModItems.SPARTAN_TEMPLATE.get());
+
+                        pOutput.accept(ModItems.UNKNOWN_TEMPLATE.get()); //just for suspense
 
                         //crusader
                         pOutput.accept(ModItems.DIAMOND_CRUSADER_LONGSWORD.get());
