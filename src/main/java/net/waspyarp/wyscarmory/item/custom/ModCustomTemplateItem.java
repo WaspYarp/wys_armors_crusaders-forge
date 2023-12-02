@@ -10,10 +10,7 @@ public class ModCustomTemplateItem extends Item {
         super(pProperties);
     }
 
-    @Override
-    public boolean hasCraftingRemainingItem(ItemStack stack) {
-        return super.hasCraftingRemainingItem(stack);
-    }
+
 }
 
 

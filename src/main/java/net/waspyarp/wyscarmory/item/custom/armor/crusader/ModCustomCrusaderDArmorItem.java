@@ -4,9 +4,7 @@ import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.waspyarp.wyscarmory.client.armor.crusader.CrusaderDArmorRender;
@@ -18,7 +16,6 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModCustomCrusaderDArmorItem extends ModCustomArmorItem {
-
 
     public ModCustomCrusaderDArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);

@@ -31,4 +31,5 @@ public class ModCustomArmorItem extends ArmorItem implements GeoItem {
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return cache;
     }
+
 }

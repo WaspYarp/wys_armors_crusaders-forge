@@ -26,18 +26,18 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.UNKNOWN_TEMPLATE.get()); //just for suspense
 
                         //crusader
-                        pOutput.accept(ModItems.DIAMOND_CRUSADER_LONGSWORD.get());
-                        pOutput.accept(ModItems.NETHERITE_CRUSADER_LONGSWORD.get());
+                        pOutput.accept(ModItems.CRUSADER_DIAMOND_LONGSWORD.get());
+                        pOutput.accept(ModItems.CRUSADER_NETHERITE_LONGSWORD.get());
 
-                        pOutput.accept(ModItems.CHAIN_CRUSADER_HELMET.get());
-                        pOutput.accept(ModItems.CHAIN_CRUSADER_CHESTPLATE.get());
-                        pOutput.accept(ModItems.CHAIN_CRUSADER_LEGGINGS.get());
-                        pOutput.accept(ModItems.CHAIN_CRUSADER_BOOTS.get());
+                        pOutput.accept(ModItems.CRUSADER_CHAIN_HELMET.get());
+                        pOutput.accept(ModItems.CRUSADER_CHAIN_CHESTPLATE.get());
+                        pOutput.accept(ModItems.CRUSADER_CHAIN_LEGGINGS.get());
+                        pOutput.accept(ModItems.CRUSADER_CHAIN_BOOTS.get());
 
-                        pOutput.accept(ModItems.IRON_CRUSADER_HELMET.get());
-                        pOutput.accept(ModItems.IRON_CRUSADER_CHESTPLATE.get());
-                        pOutput.accept(ModItems.IRON_CRUSADER_LEGGINGS.get());
-                        pOutput.accept(ModItems.IRON_CRUSADER_BOOTS.get());
+                        pOutput.accept(ModItems.CRUSADER_IRON_HELMET.get());
+                        pOutput.accept(ModItems.CRUSADER_IRON_CHESTPLATE.get());
+                        pOutput.accept(ModItems.CRUSADER_IRON_LEGGINGS.get());
+                        pOutput.accept(ModItems.CRUSADER_IRON_BOOTS.get());
 
                         pOutput.accept(ModItems.CRUSADER_DIAMOND_HELMET.get());
                         pOutput.accept(ModItems.CRUSADER_DIAMOND_CHESTPLATE.get());
@@ -48,9 +48,10 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.CRUSADER_NETHERITE_CHESTPLATE.get());
                         pOutput.accept(ModItems.CRUSADER_NETHERITE_LEGGINGS.get());
                         pOutput.accept(ModItems.CRUSADER_NETHERITE_BOOTS.get());
+
+
                     })
                     .build());
-
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);

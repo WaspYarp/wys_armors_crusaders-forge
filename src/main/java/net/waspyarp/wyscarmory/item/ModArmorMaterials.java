@@ -15,7 +15,7 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    CRUSADER_CHAIN_ARMOR("crusader_chain", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+    WYS_CHAIN_TIER_ARMOR("wys_chain_tier", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 2);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 4);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 5);
@@ -23,7 +23,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }), 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.5F, 0.0F, () -> {
         return Ingredient.of(Items.CHAIN);
     }),
-    CRUSADER_IRON_ARMOR("crusader_iron", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+    WYS_IRON_TIER_ARMOR("wys_iron_tier", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 2);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
@@ -31,7 +31,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }), 12, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> {
         return Ingredient.of(Items.IRON_INGOT);
     }),
-    ARMOR_DIAMOND_CRUSADER("crusader_diamond", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+    WYS_DIAMOND_TIER_ARMOR("wys_diamond_tier", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 3);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 8);
@@ -40,40 +40,31 @@ public enum ModArmorMaterials implements ArmorMaterial {
         return Ingredient.of(Items.DIAMOND);
 
     }),
-    ARMOR_NETHERITE_CRUSADER("crusader_netherite", 39, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+    WYS_NETHERITE_TIER_ARMOR("wys_netherite_tier", 39, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 3);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 8);
         p_266655_.put(ArmorItem.Type.HELMET, 3);
     }), 18, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.1F, () -> {
         return Ingredient.of(Items.NETHERITE_INGOT);
-
     }),
-    SPARTAN_CHAIN_ARMOR("chain_spartan", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 2);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_266655_.put(ArmorItem.Type.HELMET, 2);
-    }), 12, SoundEvents.ARMOR_EQUIP_CHAIN, 0.5F, 0.0F, () -> {
-        return Ingredient.of(Items.CHAIN);
+    WYS_KING_TIER_ARMOR("wys_king_tier", 39, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 7);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 9);
+        p_266655_.put(ArmorItem.Type.HELMET, 4);
+    }), 28, SoundEvents.ARMOR_EQUIP_GOLD, 2.5F, 0.1F, () -> {
+        return Ingredient.of(Items.GOLD_INGOT);
     }),
-    SPARTAN_IRON_ARMOR("iron_spartan", 17, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 2);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
-        p_266655_.put(ArmorItem.Type.HELMET, 2);
-    }), 12, SoundEvents.ARMOR_EQUIP_IRON, 0.5F, 0.0F, () -> {
-        return Ingredient.of(Items.IRON_INGOT);
-    }),
-    SPARTAN_DIAMOND_ARMOR("diamond_spartan", 35, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
-        p_266655_.put(ArmorItem.Type.BOOTS, 3);
-        p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
-        p_266655_.put(ArmorItem.Type.CHESTPLATE, 8);
-        p_266655_.put(ArmorItem.Type.HELMET, 3);
-    }), 13, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.05F, () -> {
-        return Ingredient.of(Items.DIAMOND);
-
+    WYS_NETHERITE_KING_TIER_ARMOR("wys_netherite_king_tier", 43, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
+        p_266655_.put(ArmorItem.Type.BOOTS, 4);
+        p_266655_.put(ArmorItem.Type.LEGGINGS, 7);
+        p_266655_.put(ArmorItem.Type.CHESTPLATE, 9);
+        p_266655_.put(ArmorItem.Type.HELMET, 4);
+    }), 33, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.5F, 0.15F, () -> {
+        return Ingredient.of(Items.NETHERITE_INGOT);
     });
+
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266653_) -> {
