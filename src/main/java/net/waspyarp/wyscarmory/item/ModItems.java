@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import net.waspyarp.wyscarmory.WYsCustomArmory;
+import net.waspyarp.wyscarmory.WYsCarmory;
 import net.waspyarp.wyscarmory.item.custom.ModCustomCrownItem;
 import net.waspyarp.wyscarmory.item.custom.ModCustomTemplateItem;
 import net.waspyarp.wyscarmory.item.custom.armor.crusader.*;
@@ -15,22 +15,23 @@ import net.waspyarp.wyscarmory.item.custom.weapon.*;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, WYsCustomArmory.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, WYsCarmory.MOD_ID);
 
 //General Items
     public static final RegistryObject<Item> LOST_CROWN = ITEMS.register("lost_crown",
-            () -> new ModCustomCrownItem(new Item.Properties().durability(4)));
+        () -> new ModCustomCrownItem(new Item.Properties().durability(4)));
     public static final RegistryObject<Item> KING_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("king_upgrade_smithing_template",
             () -> new Item(new Item.Properties()));
-    //just for keep the suspence for future updates
-    public static final RegistryObject<Item> UNKNOWN_TEMPLATE = ITEMS.register("unknown_template",
-            () -> new Item(new Item.Properties()));
-
-//Crusader Items
 
     public static final RegistryObject<Item> CRUSADER_TEMPLATE = ITEMS.register("crusader_template",
         () -> new ModCustomTemplateItem(new Item.Properties()));
+    public static final RegistryObject<Item> SPARTAN_TEMPLATE = ITEMS.register("spartan_template",
+            () -> new ModCustomTemplateItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> UNKNOWN_TEMPLATE = ITEMS.register("unknown_template",
+            () -> new ModCustomTemplateItem(new Item.Properties())); //just for keep the suspence for future updates
+
+//Crusader Items
     public static final RegistryObject<Item> CRUSADER_DIAMOND_LONGSWORD = ITEMS.register("crusader_diamond_longsword",
             () -> new ModCustomCrusaderDLongsword(Tiers.DIAMOND, 4, -2.8F, new Item.Properties()));
     public static final RegistryObject<Item> CRUSADER_NETHERITE_LONGSWORD = ITEMS.register("crusader_netherite_longsword",
@@ -73,9 +74,6 @@ public class ModItems {
             () -> new ModCustomCrusaderNArmorItem(ModArmorMaterials.WYS_NETHERITE_TIER_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
     //Spartan Items
-    public static final RegistryObject<Item> SPARTAN_TEMPLATE = ITEMS.register("spartan_template",
-            () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> SPARTAN_CHAIN_HELMET = ITEMS.register("spartan_chain_helmet",
             () -> new ModCustomSpartanCArmorItem(ModArmorMaterials.WYS_CHAIN_TIER_ARMOR, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> SPARTAN_CHAIN_CHESTPLATE = ITEMS.register("spartan_chain_chestplate",

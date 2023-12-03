@@ -7,11 +7,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import net.waspyarp.wyscarmory.WYsCustomArmory;
+import net.waspyarp.wyscarmory.WYsCarmory;
 
 public class ModCreativeModeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WYsCustomArmory.MOD_ID);
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WYsCarmory.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CUSTOM_ARMORY_TAB = CREATIVE_MODE_TAB.register("wyscarmory_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRUSADER_DIAMOND_HELMET.get()))
@@ -21,7 +21,9 @@ public class ModCreativeModeTab {
                         //general
                         pOutput.accept(ModItems.LOST_CROWN.get());
                         pOutput.accept(ModItems.KING_UPGRADE_SMITHING_TEMPLATE.get());
+
                         pOutput.accept(ModItems.CRUSADER_TEMPLATE.get());
+                        //pOutput.accept(ModItems.SPARTAN_TEMPLATE.get()); Coming Out in 2.0
 
                         pOutput.accept(ModItems.UNKNOWN_TEMPLATE.get()); //just for suspense
 

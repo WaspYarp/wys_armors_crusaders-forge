@@ -15,12 +15,12 @@ import net.waspyarp.wyscarmory.item.ModCreativeModeTab;
 import net.waspyarp.wyscarmory.item.ModItems;
 import org.slf4j.Logger;
 
-@Mod(WYsCustomArmory.MOD_ID)
-public class WYsCustomArmory {
+@Mod(WYsCarmory.MOD_ID)
+public class WYsCarmory {
     public static final String MOD_ID = "wyscarmory";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public WYsCustomArmory() {
+    public WYsCarmory() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 

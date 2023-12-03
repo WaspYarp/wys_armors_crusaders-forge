@@ -1,19 +1,19 @@
 package net.waspyarp.wyscarmory.client.armor.crusader;
 
 import net.minecraft.resources.ResourceLocation;
-import net.waspyarp.wyscarmory.WYsCustomArmory;
+import net.waspyarp.wyscarmory.WYsCarmory;
 import net.waspyarp.wyscarmory.item.custom.armor.crusader.ModCustomCrusaderNArmorItem;
 import software.bernie.geckolib.model.GeoModel;
 
 public class CrusaderNArmorModel extends GeoModel<ModCustomCrusaderNArmorItem> {
     @Override
     public ResourceLocation getModelResource(ModCustomCrusaderNArmorItem animatable) {
-        return new ResourceLocation(WYsCustomArmory.MOD_ID, "geo/crusader_armor_diamond.geo.json");
+        return new ResourceLocation(WYsCarmory.MOD_ID, "geo/crusader_armor_diamond.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(ModCustomCrusaderNArmorItem animatable) {
-        return new ResourceLocation(WYsCustomArmory.MOD_ID, "textures/armor/crusader_armor_netherite_layer_1.png");
+        return new ResourceLocation(WYsCarmory.MOD_ID, "textures/armor/crusader_armor_netherite_layer_1.png");
     }
 
     @Override

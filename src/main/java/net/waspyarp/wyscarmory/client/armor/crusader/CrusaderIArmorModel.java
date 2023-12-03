@@ -1,19 +1,19 @@
 package net.waspyarp.wyscarmory.client.armor.crusader;
 
 import net.minecraft.resources.ResourceLocation;
-import net.waspyarp.wyscarmory.WYsCustomArmory;
+import net.waspyarp.wyscarmory.WYsCarmory;
 import net.waspyarp.wyscarmory.item.custom.armor.crusader.ModCustomCrusaderIArmorItem;
 import software.bernie.geckolib.model.GeoModel;
 
 public class CrusaderIArmorModel extends GeoModel<ModCustomCrusaderIArmorItem> {
     @Override
     public ResourceLocation getModelResource(ModCustomCrusaderIArmorItem animatable) {
-        return new ResourceLocation(WYsCustomArmory.MOD_ID, "geo/crusader_armor_iron.geo.json");
+        return new ResourceLocation(WYsCarmory.MOD_ID, "geo/crusader_armor_iron.geo.json");
     }
 
     @Override
     public ResourceLocation getTextureResource(ModCustomCrusaderIArmorItem animatable) {
-        return new ResourceLocation(WYsCustomArmory.MOD_ID, "textures/armor/crusader_armor_iron.png");
+        return new ResourceLocation(WYsCarmory.MOD_ID, "textures/armor/crusader_armor_iron.png");
     }
 
     @Override
