@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "minecraft:chain"
+    },
+    "T": {
+      "item": "wyscarmory:crusader_template"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "M M"
+  ],
+  "result": {
+    "item": "wyscarmory:crusader_chain_leggings"
+  },
+  "show_notification": true
+}

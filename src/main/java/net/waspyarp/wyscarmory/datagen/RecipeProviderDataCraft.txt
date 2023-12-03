@@ -1,0 +1,116 @@
+//CHAIN TIER  
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_CHAIN_HELMET.get())
+                .pattern("MMM")
+                .pattern("MTM")
+                .define('M', Items.CHAIN)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_CHAIN_CHESTPLATE.get())
+          .pattern("MTM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', Items.CHAIN)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_CHAIN_LEGGINGS.get())
+          .pattern("MMM")
+                .pattern("MTM")
+                .pattern("M M")
+                .define('M', Items.CHAIN)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_CHAIN_BOOTS.get())
+          .pattern("M M")
+                .pattern("MTM")
+                .define('M', Items.CHAIN)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.CHAIN), has(Items.CHAIN))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+//IRON_INGOT TIER
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_IRON_HELMET.get())
+                .pattern("MMM")
+                .pattern("MTM")
+                .define('M', Items.IRON_INGOT)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_IRON_CHESTPLATE.get())
+          .pattern("MTM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', Items.IRON_INGOT)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_IRON_LEGGINGS.get())
+          .pattern("MMM")
+                .pattern("MTM")
+                .pattern("M M")
+                .define('M', Items.IRON_INGOT)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_IRON_BOOTS.get())
+          .pattern("M M")
+                .pattern("MTM")
+                .define('M', Items.IRON_INGOT)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+//DIAMOND TIER
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_DIAMOND_HELMET.get())
+          .pattern("MMM")
+                .pattern("MTM")
+                .define('M', Items.DIAMOND)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_DIAMOND_CHESTPLATE.get())
+          .pattern("MTM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .define('M', Items.DIAMOND)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_DIAMOND_LEGGINGS.get())
+          .pattern("MMM")
+                .pattern("MTM")
+                .pattern("M M")
+                .define('M', Items.DIAMOND)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.CRUSADER_DIAMOND_BOOTS.get())
+          .pattern("M M")
+                .pattern("MTM")
+                .define('M', Items.DIAMOND)
+                .define('T', ModItems.CRUSADER_TEMPLATE.get())
+          .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
+                .unlockedBy(getHasName(ModItems.CRUSADER_TEMPLATE.get()), has(ModItems.CRUSADER_TEMPLATE.get()))
+          .save(pWriter);
