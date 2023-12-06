@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.waspyarp.wyscarmory.WYsCarmory;
+import net.waspyarp.wyscarmory.compat.RecruitsCompat;
 import net.waspyarp.wyscarmory.item.ModItems;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -23,7 +24,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.CRUSADER_TEMPLATE);
         simpleItem(ModItems.SPARTAN_TEMPLATE);
-
+//the weapons are special items, so i dont add them here
         //CRUSADER ARMORS
         simpleItem(ModItems.CRUSADER_CHAIN_HELMET);
         simpleItem(ModItems.CRUSADER_CHAIN_CHESTPLATE);
@@ -45,7 +46,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.CRUSADER_NETHERITE_LEGGINGS);
         simpleItem(ModItems.CRUSADER_NETHERITE_BOOTS);
 
-        //SPARTAN ARMORS
+        //SPARTAN ARMORS wait till the 2.0
+
+        //COMPAT ITEMS
+        simpleItem(RecruitsCompat.RECRUITS_CRUSADER_CHAIN_HELMET);
+        simpleItem(RecruitsCompat.RECRUITS_CRUSADER_IRON_HELMET);
+        simpleItem(RecruitsCompat.RECRUITS_CRUSADER_DIAMOND_HELMET);
+        simpleItem(RecruitsCompat.RECRUITS_CRUSADER_NETHERITE_HELMET);
 
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){

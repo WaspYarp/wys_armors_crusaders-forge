@@ -7,11 +7,13 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.waspyarp.wyscarmory.item.ModCreativeModeTab;
+import net.waspyarp.wyscarmory.compat.RecruitsCompat;
+import net.waspyarp.wyscarmory.item.ModCreativeTab;
 import net.waspyarp.wyscarmory.item.ModItems;
 import org.slf4j.Logger;
 
@@ -24,7 +26,7 @@ public class WYsCarmory {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
 
-        ModCreativeModeTab.register(modEventBus);
+        ModCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -32,6 +34,9 @@ public class WYsCarmory {
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
 
+        if (ModList.get().isLoaded("recruits")) {
+            RecruitsCompat.register(modEventBus);
+        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

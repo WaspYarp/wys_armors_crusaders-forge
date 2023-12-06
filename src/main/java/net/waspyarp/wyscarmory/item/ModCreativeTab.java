@@ -3,13 +3,16 @@ package net.waspyarp.wyscarmory.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.waspyarp.wyscarmory.compat.RecruitsCompat;
 import net.waspyarp.wyscarmory.WYsCarmory;
 
-public class ModCreativeModeTab {
+public class ModCreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WYsCarmory.MOD_ID);
 
@@ -19,8 +22,8 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
 
                         //general
-                        pOutput.accept(ModItems.LOST_CROWN.get());
-                        pOutput.accept(ModItems.KING_UPGRADE_SMITHING_TEMPLATE.get());
+                       // pOutput.accept(ModItems.LOST_CROWN.get());
+                        //pOutput.accept(ModItems.KING_UPGRADE_SMITHING_TEMPLATE.get());
 
                         pOutput.accept(ModItems.CRUSADER_TEMPLATE.get());
                         //pOutput.accept(ModItems.SPARTAN_TEMPLATE.get()); Coming Out in 2.0
@@ -51,6 +54,12 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.CRUSADER_NETHERITE_LEGGINGS.get());
                         pOutput.accept(ModItems.CRUSADER_NETHERITE_BOOTS.get());
 
+
+//soon
+                        if (ModList.get().isLoaded("recruits"))
+                            for (RegistryObject<Item> item : RecruitsCompat.ITEMS.getEntries())
+                                if (item.get() instanceof Item)
+                                    pOutput.accept(item.get());
 
                     })
                     .build());

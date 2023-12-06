@@ -33,7 +33,7 @@ public class ModItems {
 
 //Crusader Items
     public static final RegistryObject<Item> CRUSADER_DIAMOND_LONGSWORD = ITEMS.register("crusader_diamond_longsword",
-            () -> new ModCustomCrusaderDLongsword(Tiers.DIAMOND, 4, -2.8F, new Item.Properties()));
+            () -> new ModCustomCrusaderDLongsword(Tiers.DIAMOND, 4, -2.8F , new Item.Properties()));
     public static final RegistryObject<Item> CRUSADER_NETHERITE_LONGSWORD = ITEMS.register("crusader_netherite_longsword",
             () -> new ModCustomCrusaderNLongsword(Tiers.NETHERITE, 4, -2.8F, new Item.Properties().fireResistant()));
 
@@ -72,6 +72,8 @@ public class ModItems {
             () -> new ModCustomCrusaderNArmorItem(ModArmorMaterials.WYS_NETHERITE_TIER_ARMOR, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> CRUSADER_NETHERITE_BOOTS = ITEMS.register("crusader_netherite_boots",
             () -> new ModCustomCrusaderNArmorItem(ModArmorMaterials.WYS_NETHERITE_TIER_ARMOR, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
+
+    //Recruits Items
 
     //Spartan Items
     public static final RegistryObject<Item> SPARTAN_CHAIN_HELMET = ITEMS.register("spartan_chain_helmet",

@@ -29,12 +29,12 @@
   "item.wyscarmory.crusader_netherite_leggings": "Crusader Leggings",
   "item.wyscarmory.crusader_netherite_boots": "Crusader Boots",
 
-
 "//SPARTAN": "items",
   "item.wyscarmory.spartan_template": "Spartan Template",
 
 
 
+  "//GENERAL": "tooltips",
   "tooltip.wyscarmory.templates_desc_1":"§7 A paper with info about",
   "tooltip.wyscarmory.templates_desc_2":"§7some lost civilization",
   "tooltip.wyscarmory.chain_tier_custom_armor": "§7 Chain Tier",
@@ -42,5 +42,15 @@
   "tooltip.wyscarmory.diamond_tier_custom_armor": "§b Diamond Tier",
   "tooltip.wyscarmory.king_tier_custom_armor": "§g King Tier",
   "tooltip.wyscarmory.netherite_tier_custom_armor": "§4 Netherite Tier",
-  "tooltip.wyscarmory.netherite_king_tier_custom_armor": "§4 Netherite §gKing Tier"
+  "tooltip.wyscarmory.netherite_king_tier_custom_armor": "§4 Netherite §gKing Tier",
+
+"//COMPAT": "recruits",
+
+  "item.wyscarmory.recruit_crusader_chain_helmet": "Crusader Helmet",
+  "item.wyscarmory.recruit_crusader_iron_helmet": "Crusader Helmet",
+  "item.wyscarmory.recruit_crusader_diamond_helmet": "Crusader Helmet",
+  "item.wyscarmory.recruit_crusader_netherite_helmet": "Crusader Helmet",
+
+  "tooltip.wyscarmory.recruit_helmets_desc_1": "§7 A very comfortable helmet ",
+  "tooltip.wyscarmory.recruit_helmets_desc_2":"§7for your Recruis"
 }

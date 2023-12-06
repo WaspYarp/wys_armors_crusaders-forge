@@ -54,7 +54,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 9);
         p_266655_.put(ArmorItem.Type.HELMET, 4);
     }), 28, SoundEvents.ARMOR_EQUIP_GOLD, 2.5F, 0.1F, () -> {
-        return Ingredient.of(Items.GOLD_INGOT);
+        return Ingredient.of(Items.DIAMOND);
     }),
     WYS_NETHERITE_KING_TIER_ARMOR("wys_netherite_king_tier", 43, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 4);
