@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "wyscarmory:crusader_template"
+  },
+  "base": {
+    "item": "wyscarmory:recruit_crusader_diamond_helmet"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "wyscarmory:crusader_diamond_helmet"
+  }
+}

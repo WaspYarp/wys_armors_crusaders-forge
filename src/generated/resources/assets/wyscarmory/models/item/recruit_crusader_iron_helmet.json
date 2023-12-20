@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wyscarmory:item/lost_crown"
+    "layer0": "wyscarmory:item/recruit_crusader_iron_helmet"
   }
 }

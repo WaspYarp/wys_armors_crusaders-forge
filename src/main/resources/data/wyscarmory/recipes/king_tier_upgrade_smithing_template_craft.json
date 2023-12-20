@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#C#",
-    "CLC",
-    "#C#"
+    "GCG",
+    "CAC",
+    "GCG"
   ],
   "key": {
-    "#": {
+    "G": {
       "item": "minecraft:gold_block"
     },
     "C": {
       "item": "minecraft:calcite"
     },
-    "L": {
-      "item": "wyscarmory:lost_crown"
+    "A": {
+      "item": "wyscarmory:ancient_crown"
     }
   },
   "result": {
-    "item": "wyscarmory:king_upgrade_smithing_template",
-    "count": 1
+    "item": "wyscarmory:king_tier_upgrade_smithing_template",
+    "count": 4
   }
 }
