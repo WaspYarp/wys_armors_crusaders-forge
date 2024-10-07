@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_diamond_helmet",
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "   "
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_diamond_helmet"
+  },
+  "show_notification": true
+}

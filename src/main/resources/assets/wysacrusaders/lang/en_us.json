@@ -1,0 +1,70 @@
+{
+"//MOD": "items",
+  "item.wysacrusaders.crusader_template": "Crusader Template",
+
+"//MOD": "weapons",
+  "item.wysacrusaders.iron_longsword": "Iron Longsword",
+  "item.wysacrusaders.crusader_diamond_longsword": "Diamond Longsword",
+  "item.wysacrusaders.crusader_netherite_longsword": "Netherite Longsword",
+
+  "item.wysacrusaders.crusader_shield": "Crusader Shield",
+
+"//MOD": "armor",
+  "item.wysacrusaders.crusader_horse_armor": "Crusader Horse Armor",
+
+  "item.wysacrusaders.crusader_archer_helmet": "Crusader Helmet",
+  "item.wysacrusaders.crusader_archer_chestplate": "Crusader Chesplate",
+  "item.wysacrusaders.crusader_archer_leggings": "Crusader Leggings",
+  "item.wysacrusaders.crusader_archer_boots": "Crusader Boots",
+
+  "item.wysacrusaders.crusader_horseman_helmet": "Crusader Helmet",
+  "item.wysacrusaders.crusader_horseman_chestplate": "Crusader Chesplate",
+  "item.wysacrusaders.crusader_horseman_leggings": "Crusader Leggings",
+  "item.wysacrusaders.crusader_horseman_boots": "Crusader Boots",
+
+  "item.wysacrusaders.crusader_iron_helmet": "Crusader Helmet",
+  "item.wysacrusaders.crusader_iron_chestplate": "Crusader Chesplate",
+  "item.wysacrusaders.crusader_iron_leggings": "Crusader Leggings",
+  "item.wysacrusaders.crusader_iron_boots": "Crusader Boots",
+
+  "item.wysacrusaders.crusader_diamond_helmet": "Crusader Helmet",
+  "item.wysacrusaders.crusader_diamond_chestplate": "Crusader Chesplate",
+  "item.wysacrusaders.crusader_diamond_leggings": "Crusader Leggings",
+  "item.wysacrusaders.crusader_diamond_boots": "Crusader Boots",
+
+  "item.wysacrusaders.crusader_netherite_helmet": "Crusader Helmet",
+  "item.wysacrusaders.crusader_netherite_chestplate": "Crusader Chesplate",
+  "item.wysacrusaders.crusader_netherite_leggings": "Crusader Leggings",
+  "item.wysacrusaders.crusader_netherite_boots": "Crusader Boots",
+
+"//COMPAT": "items",
+
+
+  "//MOD": "advancements",
+  "advancements.wysacrusaders.crusader_template.title": "Deus Vult",
+  "advancements.wysacrusaders.crusader_template.description": "Obtain your first Template for your Crusader set",
+  "advancements.wysacrusaders.crusader_iron_armor.title": "",
+  "advancements.wysacrusaders.crusader_iron_armor.description": "",
+  "advancements.wysacrusaders.crusader_diamond_armor.title": "",
+  "advancements.wysacrusaders.crusader_diamond_armor.description": "",
+  "advancements.wysacrusaders.crusader_netherite_armor.title": "",
+  "advancements.wysacrusaders.crusader_netherite_armor.description": "",
+  "advancements.wysacrusaders.crusader_diamond_longsword.title": "This Suits Me",
+  "advancements.wysacrusaders.crusader_diamond_longsword.description": "Merge a template with your Longsword",
+  "advancements.wysacrusaders.crusader_netherite_longsword.title": "Even Better",
+  "advancements.wysacrusaders.crusader_netherite_longsword.description": "Use Netherite to upgrade your Longsword",
+
+  "advancements.wysacrusaders.diamond_faction_weapon_title": "This suits me!",
+  "advancements.wysacrusaders.netherite_faction_weapon_title": "",
+
+  "//TOOLTIPS": "Items",
+
+  "tooltip.wysmoreweapons.archer_tier": " Leather Tier",
+  "tooltip.wysmoreweapons.horseman_tier": " Chain Tier",
+  "tooltip.wysmoreweapons.iron_tier": " Iron Tier",
+  "tooltip.wysmoreweapons.diamond_tier": " Diamond Tier",
+  "tooltip.wysmoreweapons.netherite_tier": " Netherite Tier",
+
+  "tooltip.wysmoreweapons.template_l1":" A paper with info about",
+  "tooltip.wysmoreweapons.template_l2":"some lost civilization"
+}

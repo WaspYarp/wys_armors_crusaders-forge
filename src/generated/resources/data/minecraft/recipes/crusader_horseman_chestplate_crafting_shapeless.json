@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "crusader_horseman_chestplate",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    {
+      "item": "wysacrusaders:crusader_template"
+    }
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_horseman_chestplate"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "crusader_netherite_helmet",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_helmet"
+    },
+    {
+      "item": "wysacrusaders:crusader_template"
+    }
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_netherite_helmet"
+  }
+}

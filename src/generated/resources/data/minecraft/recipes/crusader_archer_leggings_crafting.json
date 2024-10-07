@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_archer_leggings",
+  "key": {
+    "M": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "M M"
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_archer_leggings"
+  },
+  "show_notification": true
+}

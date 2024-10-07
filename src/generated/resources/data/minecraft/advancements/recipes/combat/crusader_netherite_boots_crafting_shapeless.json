@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item.minecraft.netherite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item.wysacrusaders.crusader_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wysacrusaders:crusader_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crusader_netherite_boots_crafting_shapeless"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_item.minecraft.netherite_boots",
+      "has_item.wysacrusaders.crusader_template",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crusader_netherite_boots_crafting_shapeless"
+    ]
+  },
+  "sends_telemetry_event": false
+}

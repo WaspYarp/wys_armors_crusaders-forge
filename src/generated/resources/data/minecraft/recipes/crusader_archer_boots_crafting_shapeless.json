@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "crusader_archer_boots",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "wysacrusaders:crusader_template"
+    }
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_archer_boots"
+  }
+}

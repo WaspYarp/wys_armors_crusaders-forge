@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "crusader_iron_chestplate",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_chestplate"
+    },
+    {
+      "item": "wysacrusaders:crusader_template"
+    }
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_iron_chestplate"
+  }
+}

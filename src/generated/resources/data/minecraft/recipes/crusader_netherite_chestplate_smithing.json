@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "wysacrusaders:crusader_diamond_chestplate"
+  },
+  "result": {
+    "item": "wysacrusaders:crusader_netherite_chestplate"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "crusader_iron_boots",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "wysacrusaders:crusader_template"
+    }
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_iron_boots"
+  }
+}

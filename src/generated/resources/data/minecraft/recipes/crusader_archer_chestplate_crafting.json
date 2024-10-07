@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_archer_chestplate",
+  "key": {
+    "M": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MTM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_archer_chestplate"
+  },
+  "show_notification": true
+}

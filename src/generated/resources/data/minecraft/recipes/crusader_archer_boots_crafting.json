@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_archer_boots",
+  "key": {
+    "M": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MTM",
+    "   "
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_archer_boots"
+  },
+  "show_notification": true
+}

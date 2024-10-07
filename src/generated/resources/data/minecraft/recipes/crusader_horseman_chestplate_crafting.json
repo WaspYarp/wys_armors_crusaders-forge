@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_horseman_chestplate",
+  "key": {
+    "M": {
+      "item": "minecraft:chain"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MTM",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_horseman_chestplate"
+  },
+  "show_notification": true
+}

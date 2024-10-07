@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_iron_boots",
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "M M",
+    "MTM",
+    "   "
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_iron_boots"
+  },
+  "show_notification": true
+}

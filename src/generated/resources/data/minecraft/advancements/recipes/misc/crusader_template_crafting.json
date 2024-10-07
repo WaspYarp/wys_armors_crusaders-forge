@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block.minecraft.chain": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chain"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item.minecraft.bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item.minecraft.glass_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_item.minecraft.paper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:paper"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:crusader_template_crafting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_item.minecraft.paper",
+      "has_item.minecraft.bread",
+      "has_item.minecraft.glass_bottle",
+      "has_block.minecraft.chain",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:crusader_template_crafting"
+    ]
+  },
+  "sends_telemetry_event": false
+}

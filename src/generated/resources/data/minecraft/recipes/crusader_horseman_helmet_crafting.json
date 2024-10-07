@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_horseman_helmet",
+  "key": {
+    "M": {
+      "item": "minecraft:chain"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "   "
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_horseman_helmet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "crusader_iron_leggings",
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "wysacrusaders:crusader_template"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MTM",
+    "M M"
+  ],
+  "result": {
+    "item": "wysacrusaders:crusader_iron_leggings"
+  },
+  "show_notification": true
+}
